@@ -5,7 +5,7 @@ Please answer *all* questions below and check off every point from the Essential
 If there is no corresponding issue number, fill in N/A where it says [fill_in_number_here] below in 1.
 -->
 
-1. This PR fixes or fixes part of #[fill_in_number_here](fill_in_the_issue_link).
+1. This PR fixes or fixes part of #[fill_in_number_here][(fill_in_the_issue_link)].
 2. This PR does the following: [Explain here what your PR does and why]
 3. (For bug-fixing PRs only) The original bug occurred because: [Explain what
    the cause of the bug was, and which PR introduced it]
