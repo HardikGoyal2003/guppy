@@ -52,7 +52,7 @@ for an idea of where the project is heading.
 
 ## Build process
 After making the changes in the Oppia's guppy fork, follow the below steps:
-* To get started, run and make sure you are in the guppy directory.
+* To get started, make sure you are in the guppy directory, then run the following:
   ```
   $ cd guppy
   ```
@@ -70,8 +70,8 @@ After making the changes in the Oppia's guppy fork, follow the below steps:
 ## Error check
 After adding build changes on the local guppy directory, follow the below steps to ensure the changes made are correct.
 * Go to ``oppia/package.json`` file on local system.
-* Find the ``guppy-dev`` now change the path with your local guppy fork ([Example](https://github.com/oppia/guppy/pull/9#issuecomment-1967417760)).
-* Now, restart the sever and manually test the guppy supported interaction thoroughly that the changes you made are not breaking any part of the code.
+* Find the line with ``guppy-dev``, and change the path to your local guppy fork ([Example](https://github.com/oppia/guppy/pull/9#issuecomment-1967417760)).
+* Now, restart the sever and manually test the guppy supported interaction thoroughly to ensure that the changes you made are not breaking any part of the code.
 * After that you are all set to make a PR!
   
 ## License
