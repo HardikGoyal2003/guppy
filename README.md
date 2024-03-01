@@ -50,6 +50,30 @@ Yes!  See the [contributors page](https://daniel3735928559.github.io/guppy/site/
 [roadmap](https://daniel3735928559.github.io/guppy/site/doc/roadmap.html)
 for an idea of where the project is heading.
 
+## Build process
+After making the changes in the Oppia's guppy fork, follow the below steps:
+* To get started, make sure you are in the guppy directory, then run the following:
+  ```
+  $ cd guppy
+  ```
+  ```
+  $ npm install --only=dev
+  ```
+*  To build, do
+   ```
+   $ npm run-script build-debug
+   ```
+*  To run the tests and code coverage tools, do
+   ```
+   $ npm test
+   ```
+## Verifying your changes
+After adding build changes on the local guppy directory, follow the below steps to ensure the changes made are correct.
+* Go to ``oppia/package.json`` file on local system.
+* Find the line with ``guppy-dev``, and change the path to your local guppy fork ([Example](https://github.com/oppia/guppy/pull/9#issuecomment-1967417760)).
+* Now, restart the server and manually test the guppy supported interaction thoroughly to ensure that the changes you made are not breaking any part of the code.
+* After that you are all set to make a PR!
+  
 ## License
 
 Guppy is licensed under the [MIT License](http://opensource.org/licenses/MIT).
