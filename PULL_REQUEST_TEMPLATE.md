@@ -13,7 +13,7 @@ If there is no corresponding issue number, fill in N/A where it says [fill_in_nu
 ## Essential Checklist
 
 - [ ] The **PR title** starts with "Fix #bugnum: " or "Fix part of #bugnum: ...", followed by a short, clear summary of the changes.
-- [ ] I have followed the build process and verifying your changes mentioned in the [readme file](https://github.com/oppia/guppy/blob/master/README.md).
+- [ ] I have followed the build process and "verifying your changes" section mentioned in the [readme file](https://github.com/oppia/guppy/blob/master/README.md).
 - [ ] I have followed the [instructions for making a code change](https://github.com/oppia/oppia/wiki/Make-a-pull-request).
 - [ ] I have assigned the correct reviewers to this PR (or will leave a comment with the phrase "@{{reviewer_username}} PTAL" if I don't have permissions to assign reviewers directly).
 - [ ] The linter/Karma presubmit checks pass on my local machine, and my PR follows the [coding style guide](https://github.com/oppia/oppia/wiki/Coding-style-guide)).
